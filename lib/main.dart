@@ -72,6 +72,10 @@ class _MyHomePageState extends State<MyHomePage> {
     'images/welcome4.jpg',
     'images/welcome5.jpg',
     'images/welcome6.jpg',
+    'images/welcome7.jpg',
+    'images/welcome8.jpg',
+    'images/welcome9.jpg',
+    'images/welcome10.jpg',
     // Add more image paths as needed
   ];
 
@@ -109,10 +113,10 @@ class _MyHomePageState extends State<MyHomePage> {
         child: AppBar(
           backgroundColor: Colors.transparent,
           elevation: 0,
-          title: Text(
-            "EN / CN",
-            style: TextStyle(fontSize: 16, color: Colors.black),
-          ),
+          // title: Text(
+            // "EN / CN",
+            // style: TextStyle(fontSize: 16, color: Colors.black),
+          // ),
           actions: [
             IconButton(
               icon: Icon(Icons.refresh),
